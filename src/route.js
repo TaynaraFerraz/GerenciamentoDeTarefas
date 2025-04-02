@@ -12,6 +12,10 @@ export const routes = [
         handler: (req, res) => {
             const { title, description } = req.body
 
+            if(!title || !description){
+                return res.writeHead(404).end("Título ou descrição não foram listados, eles são obrigatórios")
+            }
+
             const task = {
                 id: randomUUID(),
                 title,
@@ -51,6 +55,10 @@ export const routes = [
 
             const { title, description } = req.body
             const { id } = req.params
+
+            if(!title || !description){
+                return res.writeHead(404).end("Título ou descrição não foram listados, eles são obrigatórios")
+            }
 
             const existingTask = database.get('tasks', id);
 

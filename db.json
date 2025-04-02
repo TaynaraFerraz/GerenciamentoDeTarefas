@@ -167,6 +167,14 @@
    "completed_at": "2025-04-02T16:55:23.679Z",
    "created_at": "2025-04-02T16:55:02.935Z",
    "updated_at": null
+  },
+  {
+   "id": "bd7709f6-593c-4323-a0a4-008f9db83aa8",
+   "title": "estudar para a ic novo ",
+   "description": "nova descrição",
+   "completed_at": null,
+   "created_at": "2025-04-02T17:23:21.554Z",
+   "updated_at": "2025-04-02T17:27:59.677Z"
   }
  ]
 }
